@@ -1,0 +1,41 @@
+
+    
+row-cols-2      :   row içerisinde en fazla 2 column olsun
+row-cols-auto   :   row içerisinde otomatik
+d-flex          :   flexible olarak ayarla. her divi eşit parçalara böl
+d-inline-flex   :   her dive kendi içeriği kadar alan ayarla
+flex-fill       :   bir sonraki dive kadar uzat 
+flex-grow-1     :   aynı şeyi yapar yazıldığı divden sonraki tüm boşlukları almasını sağlar
+me-auto ms-auto :   yazılan divden sonra left veya righta boşluk verir marginleft mestart marginright men
+order order-1   :   flex içerisindeki divleri istedigin şekilde sıralama imkanı verir en sondakini en baştagösterebilirsn
+align-items-start:  yükseklik içerisinde başlangıca yasla
+align-items-end:   yükseklik içerisinde sona yasla
+align-items-center:   yükseklik içerisinde centar yasla
+align-items-baseeline:   metinlerin hepsinin en alt kısımını hızala
+align-self-start|end:   kapladığı yer alanında divi en tepeye ortaya ve en alta start|centar|end olarak değiştirir
+
+#biçimlendirme kodları
+text-decoration-underline
+lead
+text-break: uzun bir tek kelimeyi alt satıra kırar sağdan devam etmesını engeler
+font-size> fs-2|6
+font-weight> fw-light
+line-height> lh-1 | lh-small | lh-base | lh-lg
+text-reset: kendi rengini siler bir üst divin rengini alır parent rengini
+border-danger | border-2
+pe-2> paddingleft demek
+ps-2> paddingrighr demek
+d-sm-block > göster gizle
+float-start|end float-lg-end|start > sağa sola dayama cihazlara göre değişim
+user-select-all|auto|none > paragrafı seçme özelliği
+opacity-20|50|75|100
+shadow|shadow-none|sm|lg
+overflow-auto|hidden|visible
+visible|invisible > display none gibi değil opacity veriyo gibi düşün
+w-25|50|75
+h-25|50|75
+link-primary|secondary
+text-truncate > verilen div genişlik boyutunu aşarsa içindeki texti kes
+vr > kesik metinlerde son kısma dikey çizgi atar
+ratio classları videoları cihazlara göre şekillendirmeye yarar
+position-fixed bottom-0 end-0 > positionlar
